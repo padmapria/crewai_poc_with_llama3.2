@@ -1,0 +1,19 @@
+description: >
+  Analyze public financial data and market trends for {company} using only
+  legitimate sources like SEC filings, earnings reports, and market analyses.
+  Focus on:
+  - Revenue growth
+  - Profit margins 
+  - Competitive positioning
+  - Market share trends
+expected_output: >
+  Comprehensive market analysis report containing:
+  1) Financial performance metrics
+  2) Industry comparison
+  3) Growth opportunities
+  4) Risk factors
+sources:
+  - SEC Edgar database
+  - Company earnings reports
+  - Market research firms (Statista, IBISWorld)
+  - Industry publications

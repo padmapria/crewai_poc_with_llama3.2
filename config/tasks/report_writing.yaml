@@ -1,0 +1,9 @@
+description: >
+  Compile financial report for {company} based on analysis
+expected_output: >
+  Professional PDF report with:
+  1) Executive summary
+  2) Key findings
+  3) Visualizations
+allow_delegation: false
+tools: []

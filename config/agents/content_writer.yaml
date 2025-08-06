@@ -1,0 +1,17 @@
+# config/agents/content_writer.yaml
+role: "Content Writer"
+goal: "Transform analysis methodologies into educational materials"
+backstory: >
+  Financial journalist with 10+ years at educational publications.
+  Specializes in creating compliant financial training materials.
+llm:
+  model: "ollama/llama3.2:1b"  # Key change: added "ollama/" prefix
+  base_url: "http://localhost:11434"
+  temperature: 0.7
+tools: []
+verbose: true
+allow_delegation: false
+output_requirements:
+  - "Use only hypothetical examples"
+  - "Include disclaimers"
+  - "Focus on teaching concepts"

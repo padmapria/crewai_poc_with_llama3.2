@@ -1,0 +1,13 @@
+description: >
+  Create a guide explaining how to analyze {company}'s financial health using:
+  - SEC filing types (10-K, 10-Q)
+  - Standard financial ratios
+  - Industry comparison methods
+expected_output: >
+  Educational framework containing:
+  1) Explanation of key financial documents
+  2) Methodology for ratio analysis
+  3) Example calculations with placeholder data
+  4) Ethical considerations
+allow_delegation: false
+tools: []
