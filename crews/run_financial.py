@@ -1,3 +1,7 @@
+##crews/run_financial.py
+### Only runs the FinancialCrew in isolation
+## Simple script for testing just the financial analysis
+
 from financial_crew import FinancialCrew
 import logging
 from crewai import Process

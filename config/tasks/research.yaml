@@ -1,3 +1,4 @@
+# tasks/research.yml
 description: >
   Analyze public financial data and market trends for {company} using only
   legitimate sources like SEC filings, earnings reports, and market analyses.

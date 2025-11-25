@@ -1,3 +1,4 @@
+#crews/financial_crew.py
 from crewai import Agent, Crew, Task, Process
 from config.settings import settings
 from config.llm_loader import create_agent  # Use centralized agent creation
@@ -8,8 +9,8 @@ class FinancialCrew:
         self.company = company
         
         # Initialize agents with proper LLM configs
-        self.writer = create_agent('config/agents/content_writer.yaml')
         self.analyst = create_agent('config/agents/financial_analyst.yaml')
+        self.writer = create_agent('config/agents/content_writer.yaml')
         
         if settings.VERBOSE:
             print(f"\nFinancial Crew LLM Configurations:")

@@ -1,3 +1,4 @@
+# tasks/analysis.yml
 description: >
   Create a guide explaining how to analyze {company}'s financial health using:
   - SEC filing types (10-K, 10-Q)

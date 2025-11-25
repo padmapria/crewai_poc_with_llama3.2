@@ -1,3 +1,6 @@
+##crews/run_research.py
+### Only runs the ResearchCrew in isolation
+## Simple script for testing just the research analysis
 from research_crew import ResearchCrew
 import logging
 from crewai import Process
